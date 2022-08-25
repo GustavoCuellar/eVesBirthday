@@ -1,0 +1,7 @@
+
+
+- hacer una pagina de entrada en blanco y negro con un icon de regalo. todo en 
+blanco y negro.. que sea un boton y que cuando lo presione cargue un tiburon 
+nadando y lleve al index.
+
+-
