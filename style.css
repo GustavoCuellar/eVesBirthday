@@ -10,7 +10,7 @@ html {
 
                               /* hoja de Style de index.html */
 
-body {
+.body-index{
     background-color: black;
     animation: dianoche 10s infinite 2s;
 }
