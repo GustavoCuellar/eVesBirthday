@@ -11,7 +11,7 @@ html {
                                 /* hoja de Style de index.html */
 .figure {
     position: absolute;
-    display: blocks;
+    display: block;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -55,7 +55,7 @@ html {
     border-radius: 25px;
 }
 
-                                /* Hoja Style de regalo.html */
+                                /* Hoja Style de carta.html */
 
 .body-regalo {
     position: relative;
