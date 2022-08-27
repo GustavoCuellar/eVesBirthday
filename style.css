@@ -8,7 +8,25 @@ html {
     font-size: 62.5%;
 }
 
-                                /* hoja de Style de index.html */
+                              /* hoja de Style de index.html */
+
+body {
+    background-color: black;
+    animation: dianoche 10s infinite 2s;
+}
+
+@keyframes dianoche {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: white;
+    }
+    100% {
+        background-color: white;
+    }
+} 
+
 .figure {
     position: absolute;
     display: block;
@@ -22,7 +40,6 @@ html {
     height: 130px;
 }
                  
-
                                 /* hoja de Style de preRegalo.html */
 
 .main-container {
