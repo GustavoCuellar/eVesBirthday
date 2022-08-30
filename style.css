@@ -76,7 +76,7 @@ html {
 
 .body-carta {
     position: relative;
-    font-family: 'Barrio', cursive;
+    font-family: 'Bangers', cursive;
 }
 
 .container-carta {
@@ -85,17 +85,17 @@ html {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    font-size: 1.6rem;
+    font-size: 3rem;
     padding: 40px;
 }
 
 .container-carta p {
     width: 100%;
     height: 100%;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-top: 50px;
     text-align: justify;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .container-buttom__carta {
@@ -117,8 +117,8 @@ html {
 }
 
 .container-buttom__carta a {
-    font-family: 'Barrio', cursive;
-    font-size: 2rem;
+    font-family: 'Bangers', cursive;
+    font-size: 2.5rem;
     text-decoration: none;
     color: red;
 }
@@ -317,5 +317,5 @@ footer p  {
     align-items: center;
     font-size: 1.8rem;
     color: wheat;
-    padding-right: 60px;
+    padding-right: 100px;
 }
