@@ -193,11 +193,11 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 100px;
-    background-color: rgb(116, 116, 181);
+    background-color: rgb(220, 157, 39);
 }
 .box-inicio {
     width: 350px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border-radius: 20px;
     border: 1px solid black;
@@ -211,7 +211,7 @@ main {
 }
 .box-bob {
     width: 350px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border-radius: 20px;
     border: 1px solid black;
@@ -225,7 +225,7 @@ main {
 }
 .box-shake {
     width: 350px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border-radius: 20px;
     border: 1px solid black;
@@ -239,7 +239,7 @@ main {
 }
 .box-rain {
     width: 350px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border-radius: 20px;
     border: 1px solid black;
@@ -253,7 +253,7 @@ main {
 }
 .box-coffee {
     width: 350px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border-radius: 20px;
     border: 1px solid black;
@@ -267,7 +267,7 @@ main {
 }
 .box-letter {
     width: 380px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border-radius: 20px;
     border: 1px solid black;
