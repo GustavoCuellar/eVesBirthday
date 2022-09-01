@@ -131,18 +131,16 @@ html {
 }
 
 header {
+    position: fixed;
     width: 100%;
     height: 80px;
-    position: fixed;
     display: flex;
     justify-content: space-between ;
     align-items: center;
     padding: 10px;
     background-color: yellow;
-    /* background-image: linear-gradient( 135deg, #FFF5C3 10%, #9452A5 100%); */   
     font-family: 'Barrio', cursive;   
 }
-
 
 header .logo {
     display: flex;
@@ -163,6 +161,7 @@ header ul {
     align-content: space-around;
     background-color: rgba(226, 173, 75, 0.4);
     border-radius: 10px;
+    padding: 10px;
 }
 
 header li {
@@ -180,7 +179,7 @@ header li a {
     color: black;
 }
 
-main {
+.main-regalo {
     width: 100%;
     height: 100%;
     background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
@@ -191,26 +190,37 @@ main {
     height: 700px;
 }
 
-.container-inicio {
+.reveal {
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.container-inicio,
+.container-bob,
+.container-shake,
+.container-rain,
+.container-coffee,
+.container-letter {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-    
+    padding-top: 100px;    
 }
 .box-inicio {
     width: 350px;
     height: 580px;
+    display: flex;
     background-color: white;
     border-radius: 20px;
     border: 1px solid black;
 }
 
-.container-bob {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    
-}
 .box-bob {
     width: 350px;
     height: 580px;
@@ -219,12 +229,6 @@ main {
     border: 1px solid black;
 }
 
-.container-shake {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    
-}
 .box-shake {
     width: 350px;
     height: 580px;
@@ -233,12 +237,6 @@ main {
     border: 1px solid black;
 }
 
-.container-rain {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    
-}
 .box-rain {
     width: 350px;
     height: 580px;
@@ -247,12 +245,6 @@ main {
     border: 1px solid black;
 }
 
-.container-coffee {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    
-}
 .box-coffee {
     width: 350px;
     height: 580px;
@@ -261,12 +253,6 @@ main {
     border: 1px solid black;
 }
 
-.container-letter {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    
-}
 .box-letter {
     width: 350px;
     height: 580px;
@@ -286,6 +272,7 @@ main {
 
 .box-letter h2 {
     font-size: 2.5rem;
+    text-align: center;
 }
 
 .box-letter p {
@@ -301,11 +288,10 @@ main {
 
 footer {
     width: 100%;
-    height: 80px;
+    height: 90px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
     background-color: red;
     font-family: 'Bangers', cursive;
 }
