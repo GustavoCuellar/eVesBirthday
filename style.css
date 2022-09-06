@@ -8,16 +8,16 @@ html {
     font-size: 62.5%;
 }
 
-                              /* hoja de Style de index.html */
+/* -------------------------------------------------------------------------------------------
+ hoja de Style de index.html
+ --------------------------------------------------------------------------------------------- */
 
-.body-index{
-    background-color: black;
+.content-img__regalo {
     animation: dianoche 10s infinite 2s;
 }
-
 @keyframes dianoche {
     0% {
-        background-color: black;
+        background-color: red;
     }
     50% {
         background-color: white;
@@ -26,7 +26,6 @@ html {
         background-color: white;
     }
 } 
-
 .figure {
     position: absolute;
     display: block;
@@ -34,116 +33,83 @@ html {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
 .figure img {
     width: 130px;
     height: 130px;
 }
-                 
-                                /* hoja de Style de preRegalo.html */
 
-.main-container {
-    width: 100%;
+/* -----------------------------------------------------------------------------------------                
+hoja de Style de preRegalo.html
+------------------------------------------------------------------------------------------- */
+
+.section-pR {
+    padding: 0 10px;
+}
+.container-video__pR {
     height: 100vh;
-    padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(133, 180, 176);
+    align-items: center;
 }
-
-.container-video {
-    display: flex;
-    border-top: 50px solid black;
-    border-bottom: 50px solid black;
-}
-
-.container-video video {
+.video1 {
     width: 100%;
+    max-width: 800px;
+}
+.video2 {
+    width: 150px;
+    border-radius: 50px;
+}
+.video2 a {
+    background-color: red;
 }
 
-.section-img-pR {
-    position: relative;
-}
+/* ------------------------------------------------------------------------------------------
+Hoja Style de carta.html
+-------------------------------------------------------------------------------------------*/
 
-.container-video-flecha video {
-    width: 130px;
-    border-radius: 25px;
-}
-
-                                /* Hoja Style de carta.html */
-
-.body-carta {
-    position: relative;
-    font-family: 'Bangers', cursive;
-}
-
-.container-carta {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+.content-presentation {
     width: 100%;
     height: 100vh;
-    font-size: 3rem;
-    padding: 40px;
-}
-
-.container-carta p {
-    width: 100%;
-    height: 100%;
-    font-size: 3rem;
-    margin-top: 50px;
-    text-align: justify;
-    line-height: 40px;
-}
-
-.container-buttom__carta {
-    width: 100%;
-    height: 200px;
     display: flex;
-    align-items: center;
-    justify-content: end;
-    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.7rem;
 }
-
-.container-buttom__carta  .buttom-carta {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    border: 2px solid red;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.container-buttom__carta a {
-    font-family: 'Bangers', cursive;
+ .title-area  {
+    padding: 20px 0;
     font-size: 2.5rem;
-    text-decoration: none;
+}
+.title-area a {
+    color: black;
+}
+.follow-me {
+    display: flex;
+    justify-content: end;
+    
+}
+.follow-me a {
     color: red;
+    text-decoration: none;
 }
 
-                            /* Hoja Style de regalo.html */
-
-.body-regalo {
-    width: 100%;
-    height: 100%;
-}
-
+/* ---------------------------------------------------------------------------------------
+ Hoja Style de regalo.html
+ ----------------------------------------------------------------------------------------- */
 header {
     position: fixed;
     width: 100%;
-    height: 80px;
     display: flex;
     justify-content: space-between ;
-    align-items: center;
     padding: 10px;
     background-color: yellow;
-    font-family: 'Barrio', cursive;   
+    font-family: 'Barrio', cursive;
+    border-bottom: 1px solid black;  
 }
 
 header .logo {
-    display: flex;
     height: 60px;
     width: 60px;
     padding: 10px;
@@ -162,6 +128,7 @@ header ul {
     background-color: rgba(226, 173, 75, 0.4);
     border-radius: 10px;
     padding: 10px;
+    border: 1px solid black;
 }
 
 header li {
@@ -170,138 +137,23 @@ header li {
     list-style: none;
 }
 
-header li a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
+/* ---------------------------->main<--------------------- */
 
-.main-regalo {
-    width: 100%;
-    height: 100%;
+article{
+    padding: 90px 0 3px;
     background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
 }
-
+.inner-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .box {
     width: 100%;
-    height: 700px;
-}
-
-.reveal {
-    position: relative;
-    transform: translateY(144px);
-    opacity: 0;
-    transition: 1s all ease;
-}
-
-.reveal.active {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.container-inicio,
-.container-bob,
-.container-shake,
-.container-rain,
-.container-coffee,
-.container-letter {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;    
-}
-.box-inicio {
-    width: 350px;
-    height: 580px;
-    display: flex;
+    height: 84vh;
+    max-width: 400px;
+    margin: 20px 0;
     background-color: white;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-.box-bob {
-    width: 350px;
-    height: 580px;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-.box-shake {
-    width: 350px;
-    height: 580px;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-.box-rain {
-    width: 350px;
-    height: 580px;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-.box-coffee {
-    width: 350px;
-    height: 580px;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-.box-letter {
-    width: 350px;
-    height: 580px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-.box-letter img {
-    width: 50px;
-    height: 50px;
-}
-
-.box-letter h2 {
-    font-size: 2.5rem;
-    text-align: center;
-}
-
-.box-letter p {
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    border-radius: 10px;
     border: 2px solid black;
-    text-align: center;
-    font-size: 1.4rem;
-    background-color: #81FFEF;
-}
-
-footer {
-    width: 100%;
-    height: 90px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    background-color: red;
-    font-family: 'Bangers', cursive;
-}
-
-footer p  {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    font-size: 1.8rem;
-    color: wheat;
-    padding-right: 100px;
+    border-radius: 10px;
 }
