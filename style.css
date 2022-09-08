@@ -12,20 +12,7 @@ html {
  hoja de Style de index.html
  --------------------------------------------------------------------------------------------- */
 
-.content-img__regalo {
-    animation: dianoche 10s infinite 2s;
-}
-@keyframes dianoche {
-    0% {
-        background-color: red;
-    }
-    50% {
-        background-color: white;
-    }
-    100% {
-        background-color: white;
-    }
-} 
+
 .figure {
     position: absolute;
     display: block;
@@ -105,20 +92,19 @@ header {
     justify-content: space-between ;
     padding: 10px;
     background-color: yellow;
-    font-family: 'Barrio', cursive;
     border-bottom: 1px solid black;  
 }
 
 header .logo {
     height: 60px;
     width: 60px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
 }
 
 header img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 header ul {
@@ -126,11 +112,12 @@ header ul {
     justify-items: center;
     background-color: rgba(226, 173, 75, 0.4);
     border-radius: 10px;
-    padding: 10px;
     border: 1px solid black;
 }
 
 header li {
+    display: flex;
+    align-items: center;
     padding: 5px;
     text-decoration: none;
     list-style: none;
@@ -153,6 +140,6 @@ article{
     max-width: 400px;
     margin: 60px 0;
     background-color: white;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 10px;
 }
