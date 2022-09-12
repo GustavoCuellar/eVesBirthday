@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="box container-shake" id="shake">
+        <div class="inner-box-shake">
+            <div class="box-shake">
+                <h2 class="titulos">Tiburones</h2>
+                <div class="container-img-shake">
+                    <div class="img-shake">
+                        <figure class="shake">
+                            <img src="./assets/pics/shake2.jpeg" alt="">
+                        </figure>
+                    </div>
+                    <div class="img-shake">
+                        <figure class="shake">
+                            <img src="./assets/pics/shake1.jpeg" alt="">
+                        </figure>
+                    </div>
+                    <div class="img-shake">
+                        <figure class="shake">
+                            <img src="./assets/pics/shake3.jpeg" alt="">
+                        </figure>
+                    </div>
+                    <div class="img-shake">
+                        <figure class="shake">
+                            <img src="./assets/pics/shake4.jpeg" alt="">
+                        </figure>
+                    </div>
+                    <div class="img-shake">
+                        <figure class="shake">
+                            <img src="./assets/pics/shake5.jpeg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="shake-info">
+                    <h2>Cosas interesantes sobre este pececito</h2>
+
+                    <h3>
+                        (Que tal vez ya los sepas pero nadie te pregunto)
+                    </h3>
+                    <div class="info">
+                        <p>
+                            -Los tiburones, como Cupido, pueden sentir el ritmo cardiaco de sus presas. <br>
+                            <br> -Algunos tiburones brillan en la oscuridad, como nuestros ojos despues de tus
+                            fernets.<br>
+                            <br>- Algunos tiburones regeneran sus heridas a una velocidad muy alta, como
+                            Deadpool. <br>
+                            <br> <a href="https://www.instagram.com/greatwhitesweekly/">-Aca encontre las
+                                mejores fotonas.</a> <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <style>
+        /* Tiburon */
+.container-shake {
+    position: relative;
+    background-image: url(./assets/pics/mar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner-box-shake {
+    position: absolute;
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    background-color: rgba(210, 235, 235, 0.3);
+    border-radius: 10px;
+}
+.titulos {
+    text-align: center;
+    margin: 0 0 10px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.container-img-shake {
+    display: flex;
+    justify-content: start;
+   overflow-x: scroll;
+   scroll-snap-type: x mandatory;
+}
+
+.container-img-shake .img-shake {
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 100%;
+    padding: 10px 20px;
+    scroll-snap-align: start;
+
+}
+.container-img-shake .img-shake img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+.shake-info {
+    position: absolute;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+    padding-bottom: 5px;
+    
+}
+.shake-info h2 {
+    text-align: center;
+    padding: 10px 0 0;
+    font-size: 1.8rem;
+}
+.shake-info h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: hsla(0, 0%, 5%, 0.852);
+}
+.shake-info  p {
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0 10px;
+}
+.shake-info a {
+    text-decoration: none;
+}
+.shake-info .info {
+   padding-top: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+   background-color: hsla(180, 100%, 75%, 0.545);
+}
+    </style>
+</body>
+</html>

@@ -47,9 +47,6 @@ hoja de Style de preRegalo.html
     width: 150px;
     border-radius: 50px;
 }
-.video2 a {
-    background-color: red;
-}
 
 /* ------------------------------------------------------------------------------------------
 Hoja Style de carta.html
@@ -85,138 +82,78 @@ Hoja Style de carta.html
 /* ---------------------------------------------------------------------------------------
  Hoja Style de regalo.html
  ----------------------------------------------------------------------------------------- */
-header {
+
+ /* HEADER */
+
+ header {
     position: fixed;
     width: 100%;
+    height: 90px;
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding: 10px;
     background-color: yellow;
-    border-bottom: 1px solid black;  
-}
-
-header .logo {
-    height: 60px;
-    width: 60px;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-header img {
-    width: 30px;
-    height: 30px;
-}
-
-header ul {
-    display: flex;
-    justify-items: center;
-    background-color: rgba(226, 173, 75, 0.4);
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
-header li {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-}
-
-/* ---------------------------->main<--------------------- */
-
-article{
-    padding: 90px 0 3px;
-    background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
-}
-.inner-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.box {
-    width: 95%;
-    height: 84vh;
-    max-width: 400px;
-    margin: 60px 0;
-    background-color: white;
     border: 3px solid black;
-    border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
 }
-
-/* Tiburon */
-.container-shake {
-    background-image: url(./assets/pics/mar.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.inner-box-shake {
-    width: 85%;
-    margin: 5px auto;
-    background-color: rgba(210, 235, 235, 0.3);
-    border-radius: 10px;
-}
-
-.titulos {
-    text-align: center;
-    margin: 0 0 10px;
-    font-weight: 600;
-    font-size: 2.5rem;
-}
-
-.container-img-shake {
+.logo {
     display: flex;
-    justify-content: start;
-   overflow-x: scroll;
-   scroll-snap-type: x mandatory;
 }
-
-.container-img-shake .img-shake {
+.logo a {
     display: flex;
-    justify-content: space-around;
-    flex: 0 0 100%;
-    padding: 10px 20px;
-    scroll-snap-align: start;
-
+    align-items: center;
 }
-.container-img-shake .img-shake img {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    border: 4px solid black;
-}
-.shake-info {
-    width: 90%;
+.logo img {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin: 10px auto;
-    padding-bottom: 5px;
-    
+    width: 50px;
+    height: 50px;
 }
-.shake-info h2 {
+nav {
+    display: flex;
+    align-items: center;   
+    justify-content: space-around;
+    background-color: rgba(118, 37, 167, 0.7); 
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.icon img {
+    width: 40px;
+    margin: 5px;
+}
+
+/* MAIN */
+
+.contenedor {
+    padding: 90px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.presentacion {
+    font-family: 'Open Sans', sans-serif;
+}
+.presentacion .presentacion-titulo {
+    padding: 40px 0;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.presentacion h1 {
     text-align: center;
-    padding: 10px 0 0;
-    font-size: 1.8rem;
+    font-size: 3rem;
+    font-weight: 400;
 }
-.shake-info h3 {
-    text-align: center;
-    padding-bottom: 10px;
-    color: hsla(0, 0%, 5%, 0.852);
+.presentacion .presentacion-texto {
+    margin: 15px 0;
+    border: 3px solid black;
+    border-radius: 10px;
+
 }
-.shake-info  p {
-    font-weight: 700;
-    font-size: 1rem;
+.presentacion p {
+    padding: 20px;
     text-align: justify;
-    padding: 0 10px;
-}
-.shake-info a {
-    text-decoration: none;
-}
-.shake-info .info {
-   padding-top: 10px;
-   border: 2px solid black;
-   border-radius: 10px;
-   background-color: hsla(180, 100%, 75%, 0.545);
+    font-weight: 300;
+    font-size: 1.7rem;
 }
