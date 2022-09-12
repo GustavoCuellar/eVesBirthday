@@ -220,9 +220,10 @@ nav {
 }
 .info-bob {
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 .info-bob p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 20px;
     text-align: justify;
 }
@@ -294,4 +295,31 @@ nav {
 }
 .info a {
     text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.838);
+}
+footer figure {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: 5px solid white; 
+   border-radius: 50%;
+
+}
+footer img {
+    width: 50px;
+    height: 50px;
+    
+    
 }
