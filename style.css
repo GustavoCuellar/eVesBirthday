@@ -116,8 +116,8 @@ header {
 .logo img {
     display: flex;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 nav {
@@ -130,7 +130,8 @@ nav {
 }
 
 .icon img {
-    width: 33px;
+    width: 35px;
+    height: 40px;
     margin: 5px;
 }
 
@@ -139,7 +140,7 @@ nav {
 /* PRESENTACION */
 
 .contenedor {
-    padding: 90px 0 10px;
+    padding: 90px 0 20px;
     width: 88%;
     max-width: 1000px;
     margin: auto;
@@ -148,7 +149,6 @@ nav {
 
 .presentacion .presentacion-titulo {
     padding: 40px 0;
-
     margin-top: 15px;
 }
 
@@ -190,7 +190,42 @@ nav {
 }
 
 /* BOB ESPONJA */
+.card-bob {
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-color: yellow;
+    /* background-image: url(./assets/pics/mar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.titulo-bob {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
 
+}
+.titulo-bob img {
+    width: 200px;
+}
+.container-videobob {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.container-videobob .videobob{
+    width: 350px;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+.info-bob {
+    width: 100%;
+}
+.info-bob p {
+    font-size: 2rem;
+    padding: 20px;
+    text-align: justify;
+}
 /* TIBURON */
 .card-shake {
     width: 100%;
@@ -240,7 +275,7 @@ nav {
     border: 3px solid white;
 }
 .shake-info {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
 }
 .shake-info h3 {
