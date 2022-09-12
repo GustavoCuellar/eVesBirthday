@@ -137,8 +137,9 @@ nav {
 /* MAIN */
 
 /* PRESENTACION */
+
 .contenedor {
-    padding: 90px 0 0;
+    padding: 90px 0 10px;
     width: 88%;
     max-width: 1000px;
     margin: auto;
@@ -253,8 +254,8 @@ nav {
 .info p {
     text-align: justify;
     font-weight: 400;
-    font-size: 1.6rem;
-    padding: 10px 5px 0;
+    font-size: 1.7rem;
+    padding: 20px 5px 0;
 }
 .info a {
     text-decoration: none;
