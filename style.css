@@ -100,7 +100,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: yellow;
+    background-color: white;
     border: 3px solid black;
 }
 
@@ -202,30 +202,45 @@ nav {
 .titulo-bob {
     display: flex;
     justify-content: center;
-    padding: 15px 0;
+    padding: 10px 0;
 
 }
 .titulo-bob img {
-    width: 200px;
+    width: 190px;
 }
 .container-videobob {
     display: flex;
     justify-content: center;
     padding: 20px 0;
+    
 }
 .container-videobob .videobob{
+    border: 3px solid black;
     width: 350px;
     border-radius: 10px;
-    border: 4px solid black;
 }
 .info-bob {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     font-family: 'Open Sans', sans-serif;
 }
 .info-bob p {
-    font-size: 1.7rem;
-    padding: 20px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 10px;
     text-align: justify;
+}
+.enlace-video-bob {
+    display: flex;
+    justify-content: end;
+}
+.enlace-video-bob a {
+    padding: 10px 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: orangered;
 }
 /* TIBURON */
 .card-shake {
