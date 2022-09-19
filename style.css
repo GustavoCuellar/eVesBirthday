@@ -100,7 +100,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(255, 101, 101);
     border: 3px solid black;
 }
 
@@ -126,6 +126,7 @@ nav {
     justify-content: space-around;
     border-radius: 10px;
     border: 3px solid black;
+    background-color: rgba(222, 204, 238, 0.768);
 }
 
 .icon img {
@@ -194,46 +195,50 @@ nav {
     border-radius: 15px;
     border: 3px solid black;
     background-color: yellow;
-    /* background-image: url(./assets/pics/mar.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
+
 .titulo-bob {
     display: flex;
     justify-content: center;
     padding: 10px 0;
 
 }
+
 .titulo-bob img {
     width: 190px;
 }
+
 .container-videobob {
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    
 }
-.container-videobob .videobob{
+
+.container-videobob .videobob {
     border: 3px solid black;
     width: 350px;
     border-radius: 10px;
 }
+
 .info-bob {
     width: 100%;
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
 }
+
 .info-bob p {
     font-size: 1.8rem;
     font-weight: 300;
     padding: 10px;
     text-align: justify;
 }
+
 .enlace-video-bob {
     display: flex;
     justify-content: end;
 }
+
 .enlace-video-bob a {
     padding: 10px 15px;
     font-size: 1.8rem;
@@ -241,6 +246,7 @@ nav {
     text-decoration: none;
     color: orangered;
 }
+
 /* TIBURON */
 .card-shake {
     width: 100%;
@@ -250,6 +256,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .card-shake h2 {
     padding: 0 0 5px;
     text-align: center;
@@ -257,11 +264,13 @@ nav {
     color: white;
     text-decoration: underline;
 }
+
 .box-shake {
     padding: 10px;
     margin: 0 5px;
     border-radius: 10px;
 }
+
 .container-img-shake {
     display: flex;
     justify-content: start;
@@ -269,71 +278,198 @@ nav {
     scroll-snap-type: x mandatory;
 
 }
+
 .img-shake {
     display: flex;
     justify-content: space-around;
     flex: 0 0 100%;
     padding: 0 20px;
     scroll-snap-align: start;
-    
+
 }
+
 .img-shake figure {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 0 5px;
 }
+
 .img-shake img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     border: 3px solid white;
 }
+
 .shake-info {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
 }
+
 .shake-info h3 {
     font-size: 2.5rem;
     text-align: center;
 }
+
 .shake-info h4 {
     font-size: 1.6rem;
     text-align: center;
 }
+
 .info p {
     text-align: justify;
     font-weight: 400;
     font-size: 1.7rem;
     padding: 20px 5px 0;
 }
+
 .info a {
     text-decoration: none;
 }
+
+/* RAIN */
+
+.card-rain {
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-image: url(./assets/pics/selva.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-videorain {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+}
+
+.container-videorain .videorain {
+    border-bottom: 10px solid green;
+    border-top: 10px solid green;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.inner-rain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: hsla(0, 0%, 100%, 0.7);
+}
+
+.poema-rain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poema-rain  h2{
+    font-size: 3rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.poema-rain p {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px;
+}
+
+/* LETTER */
+
+.card-letter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.container-flower img {
+    width: auto;
+    padding: 10px 0;
+}
+
+.letter {
+    padding: 0 10px;
+}
+
+.letter h2 {
+    text-align: center;
+    padding: 7px 0 20px 0;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.subrayando {
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+}
+
+.fecha {
+    padding-left: 50%;
+    align-items: flex-end;
+    font-size: 1.3rem;
+
+}
+
+.words>p {
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
 
 /* FOOTER */
 
 footer {
     width: 100%;
-    height: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.838);
 }
+
 footer figure {
     width: 70px;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-   border: 5px solid white; 
-   border-radius: 50%;
+    border: 5px solid white;
+    border-radius: 50%;
 
 }
+
 footer img {
     width: 50px;
     height: 50px;
-    
-    
+}
+
+footer .thanks {
+    padding: 20px 0 0;
+}
+
+.thanks>a {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.poema {
+    padding: 10px;
+}
+
+.poema a {
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: white;
 }
