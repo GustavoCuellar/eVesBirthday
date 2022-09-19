@@ -369,15 +369,77 @@ nav {
     align-items: center;
 }
 
-.poema-rain  h2{
+.poema-rain h2 {
     font-size: 3rem;
     font-weight: 300;
     padding-bottom: 10px;
 }
+
 .poema-rain p {
     font-size: 1.8rem;
     text-align: center;
     padding: 15px;
+}
+
+/* COFFEE */
+
+.card-coffee {
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-image: url(./assets/pics/granos.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-coffee h2 {
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-size: 3rem;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.419);
+}
+
+.cont-img-coffee {
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+
+}
+
+.inner-info-coffee {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-img-coffee figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-img-coffee img {
+    width: 60%;
+    border: 4px solid white;
+}
+
+.inner-info-coffee {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.696);
+}
+
+.title-coffee h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.cont-text-coffee p {
+    font-size: 1.4rem;
 }
 
 /* LETTER */
@@ -437,39 +499,21 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.838);
+    padding: 20px;
 }
 
 footer figure {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px solid white;
     border-radius: 50%;
-
 }
 
 footer img {
     width: 50px;
     height: 50px;
-}
-
-footer .thanks {
-    padding: 20px 0 0;
-}
-
-.thanks>a {
-    color: white;
-    font-size: 1.7rem;
-}
-
-.poema {
-    padding: 10px;
-}
-
-.poema a {
-    font-weight: 500;
-    font-size: 1.7rem;
-    color: white;
+    padding: 2px;
 }
